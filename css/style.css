@@ -1,0 +1,24 @@
+body {
+    background-image: url('../recursos/IMG_2578.jpeg');
+}
+.titulo_principal {
+    font-family: "Chewy", system-ui;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: min(80%, 600px);
+    min-height: 180px;
+    margin: 32px auto;
+    background-color: rgb(255, 251, 255);
+    border-radius: 12px;
+}
+.contenedor h3 {
+    align-self: center;
+    margin: 16px 0 0;
+}
